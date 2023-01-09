@@ -5,3 +5,19 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+   
+    .container {
+        width: 460px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        row-gap: 4rem;
+    }
+
+    .row [class^='col'] {
+        width: 100%;
+    }
+
+}
