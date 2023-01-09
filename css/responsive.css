@@ -1,14 +1,14 @@
 @media screen and (max-width: 768px) {
    
     .container {
-        width: 761px;
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 480px) {
    
     .container {
-        width: 460px;
+        width: 90%;
     }
 
     .row {
