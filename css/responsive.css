@@ -1,22 +1,30 @@
-@media screen and (max-width: 768px) {
+.container {
+    max-width: 1140px;
+    width: 100%;
+}
+
+/* @media screen and (max-width: 768px) {
    
     .container {
         width: 90%;
     }
-}
+} */
 
 @media screen and (max-width: 480px) {
    
-    
     .why-us {
         background-color: #222222;
-        margin: -3rem 0;
+        margin: 0;
         padding: 3rem 0;
     }
 
-    .container {
-        width: 90%;
+    .steps {
+        margin-bottom: 0;
     }
+
+    /* .container {
+        width: 90%;
+    } */
 
     .row {
         flex-wrap: wrap;
